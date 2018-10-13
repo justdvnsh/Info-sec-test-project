@@ -7,6 +7,10 @@ var express = require('express');
 var app = express();
 var fs = require('fs');
 var path = require('path');
+const helmet = require('helmet');
+
+app.use(helmet.hidePoweredBy({ setTo: 'PHP 4.2.0' }))
+
 
 app.use(function(req, res, next) {
   res.set({

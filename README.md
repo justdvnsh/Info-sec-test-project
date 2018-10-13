@@ -1,2 +1,3 @@
-# Free Code Camp - Applied InfoSec Challenges
-=============================================
+# INFO SEC Project
+
+A basic info sec project.

@@ -8,6 +8,7 @@ var app = express();
 var fs = require('fs');
 var path = require('path');
 const helmet = require('helmet');
+const BCrypt = require('bcrypt');
 
 app.use(helmet.hidePoweredBy({ setTo: 'PHP 4.2.0' }))
 app.use(helmet.frameguard({ action: 'deny' }))
